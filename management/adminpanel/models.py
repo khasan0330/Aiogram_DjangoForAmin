@@ -17,12 +17,12 @@ class Users(models.Model):
 
 class Carts(models.Model):
     """Временная корзинка покупателя"""
-    user_id = models.ForeignKey(Users, unique=True, on_delete=models.CASCADE, verbose_name='Пользователь')
+    user = models.ForeignKey(Users,  on_delete=models.CASCADE, verbose_name='Пользователь')
     total_price = models.DecimalField(max_digits=10, decimal_places=2, null=True, verbose_name='Сумма продуктов')
     total_products = models.IntegerField(null=True, verbose_name='Количество продуктов')
 
     def __str__(self):
-        return str(self.user_id)
+        return str(self.user)
 
     class Meta:
         verbose_name = 'Корзинка'
@@ -31,7 +31,7 @@ class Carts(models.Model):
 
 class Finally_carts(models.Model):
     """Корзинка продуктов для Кассы"""
-    cart_id = models.ForeignKey(Carts, on_delete=models.CASCADE)
+    cart = models.ForeignKey(Carts, on_delete=models.CASCADE)
     product_name = models.CharField(max_length=150)
     product_quantity = models.IntegerField()
     final_price = models.DecimalField(max_digits=10, decimal_places=2)
@@ -44,7 +44,7 @@ class Finally_carts(models.Model):
         verbose_name_plural = 'Кассы'
 
     def __str__(self):
-        return str(self.cart_id)
+        return str(self.cart)
 
 
 class Categories(models.Model):

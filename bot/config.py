@@ -3,5 +3,5 @@ from dotenv import *
 
 load_dotenv()
 
-
 TOKEN = os.getenv('BOT_TOKEN')
+PAYME = os.getenv('PAYMENT')
