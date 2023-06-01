@@ -3,6 +3,8 @@
 * Админка на библиотеке Django
 
 ## Пример работы в картинках
-* Регистрация
+1) Регистрация
 
  ![HEADER](https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/01.png)
+
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/01.png" width="500">
