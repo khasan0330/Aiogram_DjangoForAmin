@@ -1,7 +1,7 @@
 import sqlite3
 
 
-def db_check_user(chat_id: int) -> tuple:
+def db_check_user(chat_id: int) -> tuple | None:
     database = sqlite3.connect('../management/db.sqlite3')
     cursor = database.cursor()
     cursor.execute('''
