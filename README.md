@@ -27,4 +27,4 @@
 
 6) Админка
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/06.png" width="500">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/06.png" width="700">
