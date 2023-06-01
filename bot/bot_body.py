@@ -308,7 +308,7 @@ async def create_order(call: CallbackQuery):
     )
 
     count, text, price, cart_id = do_not_repeat_yourself(chat_id, 'Итоговый список для оплаты')
-    text += "\nДоставка по городу: 10000"
+    text += "\nДоставка по городу: 10000 сум"
     await bot.send_invoice(
         chat_id=chat_id,
         title=f"Ваш заказ",
@@ -318,7 +318,7 @@ async def create_order(call: CallbackQuery):
         currency='UZS',
         prices=[
             LabeledPrice(label="Общая стоимость", amount=int(price * 100)),
-            LabeledPrice(label="Доставка", amount=1000000)
+            LabeledPrice(label="Доставка", amount=10000 * 100)
         ]
     )
 
