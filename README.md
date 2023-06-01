@@ -19,12 +19,12 @@
 
 4) Корзинка
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/04.png" width="500">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/04.png" width="400">
 
 5) Оплата
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/05.png" width="300">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/05.png" width="400">
 
 6) Админка
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/06.png" width="300">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/06.png" width="500">
