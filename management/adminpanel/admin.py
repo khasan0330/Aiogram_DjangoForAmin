@@ -11,7 +11,6 @@ class ProductAdmin(admin.ModelAdmin):
     list_display = ('product_name', 'product_category', 'product_price', 'get_photo')
 
     def get_photo(self, obj):
-        print(obj.product_image.url)
         return mark_safe(f'<img src="{obj.product_image.url}" width="75">')
 
     get_photo.short_description = 'Миниатюра'
