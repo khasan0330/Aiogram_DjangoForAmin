@@ -3,7 +3,7 @@ from django.db import models
 
 class Users(models.Model):
     """База пользователей"""
-    user_name = models.CharField(max_length=150, verbose_name='Имя пользователя' )
+    user_name = models.CharField(max_length=150, verbose_name='Имя пользователя')
     user_telegram = models.BigIntegerField(unique=True, verbose_name='Телеграм ID')
     user_phone = models.CharField(max_length=150, null=True, blank=True, verbose_name='Контактный номер')
 
