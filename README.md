@@ -7,19 +7,19 @@
 
 1) Регистрация
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/01.png" width="300">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/01.png" width="400">
 
 2) Выбор категории
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/02.png" width="300">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/02.png" width="400">
 
 3) Выбор продукта и его количества
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/03.png" width="300">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/03.png" width="400">
 
 4) Корзинка
 
-<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/04.png" width="300">
+<img src="https://github.com/khasan0330/Aiogram_DjangoForAmin/blob/main/example/04.png" width="500">
 
 5) Оплата
 
